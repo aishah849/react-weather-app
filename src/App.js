@@ -99,7 +99,11 @@ export default function App() {
             Github
           </a>
           {""} and hosted by {""}
-          <a href="" target="_blank" rel="noreferrer">
+          <a
+            href="https://storied-bonbon-baacab.netlify.app"
+            target="_blank"
+            rel="noreferrer"
+          >
             Netlify
           </a>
           . Coding by Aishah Al-Rashid.
