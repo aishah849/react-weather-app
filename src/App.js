@@ -101,14 +101,14 @@ export default function App() {
           </div>
         </div>
         <small>
-          Open sourced on
+          Open sourced on {""}
           <a
             href="https://github.com/aishah849/react-weather-app"
             target="_blank"
           >
             Github
           </a>
-          and hosted by
+          {""} and hosted by {""}
           <a
             href="https://comfy-sopapillas-508d31.netlify.app/"
             target="_blank"
