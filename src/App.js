@@ -52,10 +52,10 @@ export default function App() {
                     30
                   </span>
                   <span className="units">
-                    <a id="celsius-link" className="active">
+                    <span id="celsius-link" className="active">
                       ℃
-                    </a>{" "}
-                    |<a id="fahrenheit-link">℉</a>
+                    </span>{" "}
+                    |<span id="fahrenheit-link">℉</span>
                   </span>
                 </span>
               </div>
