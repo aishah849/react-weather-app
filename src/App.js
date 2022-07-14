@@ -52,13 +52,10 @@ export default function App() {
                     30
                   </span>
                   <span className="units">
-                    <a href="#" id="celsius-link" className="active">
+                    <a id="celsius-link" className="active">
                       ℃
                     </a>{" "}
-                    |
-                    <a href="#" id="fahrenheit-link">
-                      ℉
-                    </a>
+                    |<a id="fahrenheit-link">℉</a>
                   </span>
                 </span>
               </div>
@@ -97,11 +94,12 @@ export default function App() {
           <a
             href="https://github.com/aishah849/react-weather-app"
             target="_blank"
+            rel="noreferrer"
           >
             Github
           </a>
           {""} and hosted by {""}
-          <a href="" target="_blank">
+          <a href="" target="_blank" rel="noreferrer">
             Netlify
           </a>
           . Coding by Aishah Al-Rashid.
