@@ -15,7 +15,7 @@ export default function App() {
                   placeholder="Type a city..."
                   className="form-control"
                   id="city-input"
-                  autocomplete="off"
+                  autoComplete="off"
                 />
               </div>
               <div className="col-2">
@@ -38,7 +38,12 @@ export default function App() {
           <div className="row">
             <div className="col-4">
               <div className="clearfix weather-temperature">
-                <img src="" alt="Clear" className="float-left" id="icon" />
+                <img
+                  src="http://openweathermap.org/img/wn/04n@2x.png"
+                  alt="Clear"
+                  className="float-left"
+                  id="icon"
+                />
                 <span className="float-left">
                   <span
                     className="current-temperature"
@@ -85,23 +90,7 @@ export default function App() {
               </div>
             </div>
           </div>
-          <p className="upcoming-forecast">This Week's Forecast</p>
-          <div className="weather-forecast" id="forecast">
-            <div className="row">
-              <div className="col-2">
-                <div className="weather-forecast-date">Saturday</div>
-                <img
-                  src="http://openweathermap.org/img/wn/04n@2x.png"
-                  alt=""
-                  width="60"
-                />
-                <div className="weather-forecast-temperatures">
-                  <span className="weather-forecast-max">33°</span>
-                  <span className="weather-forecast-min">27°</span>
-                </div>
-              </div>
-            </div>
-          </div>
+          <Weather />
         </div>
         <small>
           Open sourced on {""}
